@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,600|Righteous&display=swap"
+    rel="stylesheet" />
+  <title>SEINMA - Gestión Permisos</title>
+  <!-- https://material.io/resources/icons/?style=baseline -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <!-- https://material.io/resources/icons/?style=outline -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- https://material.io/resources/icons/?style=round -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+  <!-- https://material.io/resources/icons/?style=sharp -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+  <!-- https://material.io/resources/icons/?style=twotone -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="header_content">
+          <a class="" href="home.html">
+            <img class="icons_nav" src="images/Lef-White-Blue.png" />
+          </a>
+          <label>
+            GESTION PERMISOS USUARIOS
+          </label>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  
+  <section class="contact_section layout_padding">
+    <div class="container d-flex justify-content-center">
+      <div class="form_bg">
+        <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Búsqueda" onchange="validForm()" />
+        <button type="submit" class="material-icons button_search" id="search">
+          search
+        </button>
+      </div>
+    </div>
+    <br>
+    <div class="container d-flex justify-content-center">
+      <label class="label_form_title">
+        Permisos Usuarios
+      </label>
+    </div>
+    <div class="container-fluid layout_padding-top">
+      <div class="content_form">
+        <div class="col-md-10 px-0">
+          <form action="">
+            <table class="table">
+              <tr>
+                <td>
+                  Crear Info Servidores
+                </td>
+                <td>
+                  <input type="checkbox" name="" id="chkCrear">
+                </td>
+                <td>
+                  Consultar Info Servidores
+                </td>
+                <td>
+                  <input type="checkbox" name="" id="chkEditar">
+                </td>
+                <td rowspan="2">
+                  <button class="button_form" type="submit" id="confirm">
+                    Actualizar
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Editar Info Servidores
+                </td>
+                <td>
+                  <input type="checkbox" name="" id="chkEditar">
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <br><br><br><br>
+  <br><br><br><br>
+  <!-- info section -->
+  <section class="info_section">
+    <div class="container info_content">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+        <div class="social-box">
+          <a href="">
+            <img src="images/fb.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/twitter.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/linkedin1.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/instagram1.png" alt="" />
+          </a>
+        </div>
+        <div class="form_container mt-5">
+          <a class="nav-link" href="contact.html">
+            <span>Cantáctanos</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2024 All Rights Reserved. Design by
+        <a href="">John Manuel Moreno Rojas</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/functions.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+</body>
+
+</html>
